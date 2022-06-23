@@ -1,0 +1,8 @@
+DELETE FROM employers WHERE company_name='Tilby' AND id!=1;
+DELETE FROM users WHERE full_name = 'Paolo Capillo';
+
+INSERT INTO employers (company_name, company_address, yearly_revenue, is_hiring)
+VALUES ('Tilby','via leonardo colli', 35000, true);
+
+INSERT INTO users (full_name, yearly_salary, current_status)
+VALUES ('Paolo Capillo', 108000,'employed');
